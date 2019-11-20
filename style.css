@@ -137,3 +137,26 @@ color:#805841;
     padding-top: 2vh;
     height: 80%;
 }
+.employee{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.img-portrait{
+    width: 20vh;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+.contain-1{
+    font-size: medium;
+}
+
+.employee-descriptif{
+    align-items: center;
+    text-align: justify;
+    max-width: 600px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
