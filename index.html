@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Patisserie Cloclo</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Comfortaa|Volkhov&display=swap" rel="stylesheet">
+	<link href="//cdn-images.mailchimp.com/embedcode/slim-10_7.css" rel="stylesheet" type="text/css">
+	<style type="text/css"></style>
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+<div class="cloclo_nav">
+	<a href="index.html" class="cloclo_link" target="_parent">
+	<img src="images/logo.png" alt="Logo patisserie Cloclo">
+	</a>
+	<!-- ici se placera la navbar dans une div -->
+		<div class="navbar_cloclo">
+			<div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+			  <button type="button" class="btn btn-secondary-outline">
+			  <a href="#ancre_team">La Team Cloclo </a></butoon>
+			  <button type="button" class="btn btn-secondary-outline">
+			  <a href="#ancre_prod">Les produits</a></button>
+  			  <button type="button" class="btn btn-secondary-outline">
+  			  <a href="#ancre_services">Les Services</a></button>
+  			  <button type="button" class="btn btn-secondary-outline">
+  			  <a href="#ancre_actus">Les Actus</a></button>
+
+			  <div class="btn-group" role="group">
+			    <button id="btnGroupDrop1" type="button" class="btn btn-secondary-outline dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			      Contacts
+			    </button>
+			    <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+			      <a class="dropdown-item" href="#">Newletter</a>
+			      <a class="dropdown-item" href="#">Adresse</a>
+			      <a class="dropdown-item" href="#">Le Blog</a>
+			      <a class="dropdown-item" href="#">Réseaux Sociaux</a>
+			    </div>
+			  </div>
+			</div>
+		</div>
+</div>
+
+<!-- ici se placera le carrousel -->
+<div class="bd-example">
+  <div id="carouselExampleCaptions" class="carousel slide img-carousel" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="images/Magasin/deventure.jpg" class="d-block w-100 img-carousel" alt="Muffin Chocolat">
+        <div class="carousel-caption d-none d-md-block">
+          <h5></h5>
+          <p></p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="images/Magasin/patisserie4.jpeg" class="d-block w-100 img-carousel" alt=".choux a la creme">
+        <div class="carousel-caption d-none d-md-block">
+          <h5></h5>
+          <p></p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="images/Magasin/patisserie1.jpeg" class="d-block w-100 img-carousel" alt="patisserie1">
+        <div class="carousel-caption d-none d-md-block">
+          <h5></h5>
+          <p></p>
+        </div>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+
+<!-- ici se placera le trombinoscope -->
+
+<!-- ici se placera la bannière photo des produits -->
+<div class="card bg-dark text-white">
+  <img src="images/patisserie/muffins-choco-sans-noix.jpeg" class="card-img" alt="patisserie">
+  <div class="card-img-overlay">
+  	<balise id="ancre_prod"></balise>
+    <h5 class="card-title">NOS PRODUITS</h5>
+    <p class="card-text">Pour que tout le monde soit content !</p>
+    <p class="card-text">Mise à jour le 12/11/2019</p>
+  </div>
+</div>
+
+
+<!-- ici se placera la grille des produits --> <!-- revoir avec un container Card Decks -->
+<div class="container">
+  <div class="row">
+    <div class="col-12 col-md-4">
+     	<div class="card">
+		 <img class="card-img-top img-height" src="images/Patisserie/chocolat-sans-gluten.jpeg" alt="Card image cap">
+		 	<div class="card-body">
+    			<h5 class="card-title">Gâteau chocolat</h5>
+   				 <p class="card-text">Gâteau au chocolat, absence de gluten.</p>
+   			</div>
+   		</div>
+   	</div>
+	<div class="col-12 col-md-4">
+     	<div class="card">
+  		<img class="card-img-top img-height" src="images/Patisserie/donut-sans-noix.jpeg" alt="Card image cap">
+  			<div class="card-body">
+	  			<h5 class="card-title">Donut</h5>
+	    		<p class="card-text">Donuts , sans trace de noix.</p>
+    		</div>
+    	</div>
+    </div>
+    	<div class="col-12 col-md-4">
+      		<div class="card">
+  				<img class="card-img-top img-height" src="images/Patisserie/choux-creme.jpeg" alt="Card image cap">
+	  				<div class="card-body">
+					    <h5 class="card-title">Choux à la crème</h5>
+					    <p class="card-text">Choux à la crème patissière.</p>
+					</div>
+			</div>
+    	</div>
+ 	</div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-12 col-md-4">
+    	<div class="card">
+  			<img class="card-img-top img-height" src="images/Patisserie/fruits-sans-gluten.jpeg" alt="Card image cap">
+ 				<div class="card-body">
+				    <h5 class="card-title">Gâteau aux fruits</h5>
+				    <p class="card-text text-card">Gâteau aux fruits, absence de gluten.</p>
+  				</div>
+		</div>
+   </div>
+ 	<div class="col-12 col-md-4">
+    	<div class="card">
+  			<img class="card-img-top img-height" src="images/Patisserie/gateau-choco.jpeg" alt="Card image cap">
+  				<div class="card-body">
+				    <h5 class="card-title">Merveilleux Chocolat</h5>
+				    <p class="card-text text-card">Gâteau au chocolat (présence de gluten).</p>
+     
+    			</div>
+		</div>
+    </div>
+  	<div class="col-12 col-md-4">
+     	<div class="card">
+  			<img class="card-img-top img-height" src="images/Patisserie/glace-mûre.jpeg" alt="Card image cap">
+  				<div class="card-body">
+				    <h5 class="card-title">Glace aux fruits rouges</h5>
+				    <p class="card-text text-card">Glace aux fruits rouges.</p>
+     			</div>
+		</div>
+   </div>
+</div>
+<div class="container">
+	<div class="row">
+	   	<div class="col-12 col-md-4">
+	    	<div class="card">
+	 			<img class="card-img-top img-height" src="images/Patisserie/muffins-choco-sans-noix.jpeg" alt="Card image cap">
+	  				<div class="card-body">
+					    <h5 class="card-title">Muffins aux chocolat</h5>
+					    <p class="card-text text-card">Muffins au chocolat, sans trace de noix.</p>
+					</div>
+			</div>
+	    </div>
+		<div class="col-12 col-md-4">
+	    	<div class="card">
+	  			<img class="card-img-top img-height" src="images/Patisserie/pancake-sans-gluten.jpeg" alt="Card image cap">
+	  				<div class="card-body">
+					    <h5 class="card-title">Pancake</h5>
+					    <p class="card-text text-card">Pancake, sans gluten, accompagné de sirop d'érable.</p>
+	  				</div>
+			</div>
+	    </div>
+	    <div class="col-12 col-md-4">
+	     	<div class="card">
+	  			<img class="card-img-top img-height" src="images/Patisserie/sans-noix.jpeg" alt="Card image cap">
+	  				<div class="card-body">
+					    <h5 class="card-title">Délicieux à la vanille</h5>
+					    <p class="card-text text-card">Génoise caramel, et crème au beurre vanille (sans trace de noix).</p>
+	 				</div>
+			</div>
+	    </div>
+</div>
+<div class="container">
+	<div class="row">
+	    <div class="col-12 col-md-4">
+		    <div class="card">
+	  			<img class="card-img-top img-height" src="images/Patisserie/macarons.jpeg" alt="Card image cap">
+	  				<div class="card-body">
+					    <h5 class="card-title">Macarons</h5>
+					    <p class="card-text text-card">Macarons, différents goûts en fonction de vos envies.</p>
+	  				</div>
+			</div>
+	    </div>
+	    <div class="col-12 col-md-4">
+	    	<div class="card">
+	  			<img class="card-img-top img-height" src="images/Patisserie/tarte-fruits-rouges.jpeg" alt="Card image cap">
+	  				<div class="card-body">
+					    <h5 class="card-title">Tarte aux fruits</h5>
+					    <p class="card-text text-card">Tarte aux fruits rouges (myrtilles, framboises, fraises)</p>
+	     			</div>
+			</div>
+	    </div>
+	    <div class="col-12 col-md-4">
+	     	<div class="card">
+	  			<img class="card-img-top img-height" src="images/Patisserie/vanille.jpeg" alt="Card image cap">
+	  				<div class="card-body">
+					    <h5 class="card-title">Gâteau Vanille</h5>
+					    <p class="card-text text-card">Gâteau à la vanille et chocolat blanc.</p>
+	     			</div>
+	     	</div>
+	     </div>
+</div>
+<!-- ici se trouve la bannière photo évènementiel -->
+
+<div class="card bg-dark text-white">
+  <img src="images/evenements/buffet.jpeg" class="card-img" alt="deventure magasin">
+  <div class="card-img-overlay">
+  	<balise id="ancre_services"></balise>
+    <h5 class="card-title">NOS SERVICES</h5>
+    <p class="card-text">Pour rendre vos journées ou vos évènements inoubliables.</p>
+    <p class="card-text">Mise à jour le 12/11/2019</p>
+  </div>
+</div>
+<!-- ici se trouve la grille des cartes évènements -->
+<div class="container">
+	<div class="row">
+    	<div class="col-sm">
+      		<div class="card" style="width: 18rem;">
+  			<img src="images/evenements/mariage.jpeg" class="card-img-top" alt="gateaux de mariage">
+ 				<div class="card-body">
+	    			<h5 class="card-title">Les mariages</h5>
+	    			<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+	   				<a href="#" class="btn btn-primary btn-link">Go somewhere</a>
+ 				</div>
+			</div>
+    	</div>
+    	<div class="col-sm">
+    		<div class="card" style="width: 18rem;">
+ 		 	<img src="images/evenements/anniversaire-enfant.jpeg" class="card-img-top" alt="anniversaire">
+  				<div class="card-body">
+				   <h5 class="card-title">Les anniversaires</h5>
+				   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+				   <a href="#" class="btn btn-primary btn-link">Go somewhere</a>
+			  </div>
+			</div>
+   		</div>
+    	<div class="col-sm">
+		    <div class="card" style="width: 18rem;">
+		  	<img src="images/evenements/buffet.jpeg" class="card-img-top" alt="buffet entreprise">
+			  <div class="card-body">
+			    <h5 class="card-title">Les évènements d'entreprise</h5>
+			    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+			    <a href="#" class="btn btn-primary btn-link">Go somewhere</a>
+			  </div>
+			</div>
+    	</div>
+  	</div>
+</div>
+<!-- ici se placera la bannière Actus de Cloclo -->
+<div class="card bg-dark text-white">
+  <img src="images/magasin/deventure.jpg" class="card-img" alt="patisserie">
+  <div class="card-img-overlay">
+  	<balise id="ancre_actus"></balise>
+    <h5 class="card-title">NOS ACTUALITES</h5>
+    <p class="card-text">Ce qu'il se passe chez Cloclo !</p>
+    <p class="card-text">Mise à jour le 12/11/2019</p>
+  </div>
+</div>
+<!-- ici se placera la grille ou flex des articles -->
+
+<!-- ici se placera la bannière Contacts -->
+<div class="card bg-dark text-white">
+  <img src="images/magasin/patisserie2.jpeg" class="card-img" alt="rayon patisserie">
+  <div class="card-img-overlay">
+  	<balise id="ancre_contacts"></balise>
+    <h5 class="card-title">RESTONS EN CONTACT</h5>
+    <p class="card-text">Pour vous tenir informer de nos dernières trouvailles.</p>
+    <p class="card-text">Mise à jour le 12/11/2019</p>
+  </div>
+</div>
+<!-- ici se placera le flex contact 3 div -->
+<div>
+	<div class="cloclo_address">
+		<div class="num_address">
+			<ul>Siège de Cloclo
+				<p>Pâtisserie Cloclo</p>
+				<p>Rue Casa</p>
+				<p>33000 BORDEAUX</p>
+				<p><i class="fas fa-mobile-alt"></i> 06 00 00 00 01</p>
+				<p><i class="fas fa-phone-volume"></i> 05 56 00 00 02</p>
+			</ul>
+		</div>
+		<div class="google_map_cloclo">
+			
+		</div>
+		<div class="cloclo_news">
+			<div id="mc_embed_signup">
+	<form action="https://gmail.us5.list-manage.com/subscribe/post?u=cabdcbfb94696e393e31b4d1f&amp;id=b6036d4591" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+	    <div id="mc_embed_signup_scroll">
+		<label for="mce-EMAIL">Inscription à la newsletter</label>
+		<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+	    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+	    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_cabdcbfb94696e393e31b4d1f_b6036d4591" tabindex="-1" value=""></div>
+	    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+	    </div>
+	</form>
+	</div>
+</div>	
+	</div>
+</div>
+<!-- footer -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>

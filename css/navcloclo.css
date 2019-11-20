@@ -1,0 +1,56 @@
+.cloclo_nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.cloclo_link{
+    text-decoration: none;
+}
+
+.cloclo_link > img {
+	height: 30%;
+	width: 30%;
+	border-radius: 5px;
+	object-fit: cover;
+
+}
+
+.btn {
+    color:#805841;
+    background-color: #f5a2a2;
+    text-decoration: none;
+    border-color: #805841;
+}
+
+.btn-group {
+	background-color: #f5a2a2;
+	text-decoration: none;
+}
+
+.btn-group :hover {
+    background-color: #DCF7F3;
+    transition-property: background-color;
+    transition-duration: 1s;
+    color:#805841;
+    text-decoration: none;
+}
+
+.dropdown-toggle {
+    background-color: #f5a2a2;
+  
+
+}
+
+.dropdown-menu {
+    background-color: #f5a2a2;
+    color: #805841;
+    transition-property: background-color;
+    transition-duration: 1s;
+
+}
+
+
+.dropdown-item {
+    color: #805841;
+}
