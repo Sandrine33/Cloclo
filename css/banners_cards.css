@@ -1,8 +1,9 @@
 .card-img {
     height:60vh;
     object-fit: cover;
+	margin : auto; 
 }
 
 .card-img-overlay{
-background: rgb(0,0,0);
-background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.35057773109243695) 0%, rgba(236,238,238,1) 100%);}
+	opacity: 0.5;
+}

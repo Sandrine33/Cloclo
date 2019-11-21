@@ -4,7 +4,7 @@
 @import "css/newsletter.css";
 @import "css/addresscloclo.css";
 @import "css/banners_cards.css";
-
+@import "css/evenements.css";
 
 
 body {
@@ -51,6 +51,10 @@ a {
 
 .container {
     margin-top: 2vh;
+}
+
+.container-fluid {
+    width: 100%;
 }
 
 .patisseriecloclo{
@@ -103,10 +107,6 @@ object-fit: cover;
 }
 
 
-
-
-
-
 .btn-primary {
     text-decoration: none;
     color:#805841;
@@ -118,23 +118,3 @@ background-color: #f5a2a2;
 color:#805841;
 }
 
-
-.cloclo_address {
-    display: flex;
-    align-content: row;
-    padding-top: 4vh;
-    text-align: center;
-}
-
-.num_cloclo {
-    text-align: left;
-
-}
-.google_map_cloclo{
-    width: 20vh;
-}
-
-.map_cloclo{
-    padding-top: 2vh;
-    height: 80%;
-}

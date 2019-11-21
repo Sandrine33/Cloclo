@@ -9,7 +9,7 @@
 .num_address {
 	margin: 2vh;
     text-align: left;
-    width: 30%;
+    width: 70%;
  	
 }
 .google_map_cloclo{
@@ -20,4 +20,10 @@
 .map_cloclo{
     padding-top: 2vh;
     height: 80%;
+}
+
+
+.num_cloclo {
+    text-align: left;
+
 }
